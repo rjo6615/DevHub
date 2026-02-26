@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download File</title>
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 30px;
+            color: #666;
+        }
+
+        .download-btn {
+            display: inline-block;
+            padding: 14px 28px;
+            background: #0073e6;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            border-radius: 6px;
+            transition: background 0.2s ease;
+        }
+
+        .download-btn:hover {
+            background: #005bb5;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Your File is Ready</h1>
+    <p>Click the button below to download.</p>
+
+    <!-- Replace the URL below -->
+    <a class="download-btn" href="https://yourdomain.com/files/yourfile.zip" download>
+        Download File
+    </a>
+</div>
+
+</body>
+</html>
